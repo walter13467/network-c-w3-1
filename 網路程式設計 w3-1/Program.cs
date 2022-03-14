@@ -15,6 +15,18 @@ namespace program
             {
                 Console.WriteLine("Weird");
             }
+            else if (2 <= n && n>=5)
+            {
+                Console.WriteLine("Not weird");
+            }
+            else if(6 <= n && n >= 20)
+            {
+                Console.WriteLine("Weird");
+            }
+            else
+            {
+                Console.WriteLine("Not Weird");
+            }
             Console.WriteLine();
         }
     }
